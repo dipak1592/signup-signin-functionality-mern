@@ -34,7 +34,7 @@ function Signup() {
         console.log("Signup data: ", signupInfo);  // Log the form data for debugging
 
         try {
-            const url = `http://localhost:8080/auth/signup`;
+            const url = `signup-signin-functionality-mern-api.vercel.app/auth/signup`;
 
             const response = await fetch(url, {
                 method: "POST",
